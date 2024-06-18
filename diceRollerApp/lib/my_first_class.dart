@@ -1,6 +1,6 @@
 import 'package:dice_roller_app/dice_roller.dart';
 import 'package:flutter/material.dart';
-import 'package:dice_roller_app/styled_text_class.dart';
+// import 'package:dice_roller_app/styled_text_class.dart';
 
 class MyFirstClass extends StatelessWidget {
   const MyFirstClass(this.colors, {super.key});
