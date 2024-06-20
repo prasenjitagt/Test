@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:quiz_app/answer_button.dart';
 import 'package:quiz_app/data/questions.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -47,7 +46,7 @@ class _QuestionsScreen extends State<QuestionsScreen> {
             const SizedBox(
               height: 20,
             ),
-            ...currentQuestion.getShuffledAnswers().map((eachAnswer) {
+            ...currentQuestion.shuffledAnswers.map((eachAnswer) {
               return AnswerButton(
                   answerText: eachAnswer,
                   buttonFunction: () {
