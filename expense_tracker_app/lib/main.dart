@@ -1,4 +1,4 @@
-import 'package:expense_tracker_app/widget/expenses.dart';
+import 'package:expense_tracker_app/widgets/expenses.dart';
 import 'package:flutter/material.dart';
 
 ColorScheme kMyColorScheme =
